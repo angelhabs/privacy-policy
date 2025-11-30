@@ -52,8 +52,8 @@ We use the information we collect to:
 - **Habit Data**: All your habit data, progress tracking, daily completions, and challenges are stored **locally on your device** using Core Data. This data never leaves your device and is not backed up to our servers. If you delete the app, this data will be permanently deleted.
 - **Email Address and Name**: Your email address and name are stored securely in our database (Supabase) for account and subscription management purposes. Additionally, your name is stored locally on your device for app functionality and persists across app sessions.
 - **Data Location**: Our database is hosted by Supabase. Data may be stored in servers located outside your country of residence. We implement appropriate safeguards to protect your data in accordance with applicable privacy laws.
-- **Security Measures**: We implement appropriate technical and organizational measures to protect your personal information, including encryption and access controls.
-- **Data Retention**: We retain your email address and name for as long as your account is active. If you delete your account, we will delete your personal information within 30 days, except where we are required to retain it for legal or regulatory purposes.
+- **Security Measures**: We take reasonable measures to protect your personal information. Our database is hosted by Supabase, which implements industry-standard security practices.
+- **Data Retention**: We retain your email address and name for as long as your account is active. If you delete your account, we will delete your personal information in accordance with applicable privacy laws and our standard practices, except where we are required to retain it for legal or regulatory purposes.
 - However, no method of transmission over the internet or electronic storage is 100% secure. While we strive to protect your data, we cannot guarantee absolute security.
 
 ## Data Sharing and Disclosure
