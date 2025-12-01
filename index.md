@@ -20,8 +20,8 @@ We process your personal data based on the following legal grounds:
 ## Information We Collect
 
 ### Personal Information
-- **Email Address**: When you create an account, we collect your email address. This is used solely for account identification, subscription management, and customer support purposes.
-- **Name**: When you create an account, we collect your name. This is used for personalization, account identification, and stored locally on your device for app functionality.
+- **Email Address**: When you create an account, we collect your email address. This is stored in our database (Supabase) and used solely for account identification, subscription management, and customer support purposes.
+- **Name**: When you create an account, we collect your name. This is stored in our database (Supabase) for account identification and subscription management. Additionally, your name is stored locally on your device for app functionality and personalization.
 
 ### Habit Data
 - **Local Storage Only**: All habit data, progress tracking, daily completions, challenges, and personal information related to your habits are stored **exclusively on your device** using local storage (Core Data). This data is **never** transmitted to our servers or stored in the cloud.
@@ -44,8 +44,8 @@ We process your personal data based on the following legal grounds:
 
 We use the information we collect to:
 - **Email Address**: Manage your account and subscription status, identify users who have cancelled subscriptions for retention purposes, and provide customer support
-- **Name**: Personalize your experience within the app, stored locally on your device, and used for account identification in our database
-- **Habit Names (Analytics Only)**: Understand which types of habits are popular among our users for product improvement purposes. This data is aggregated and anonymized.
+- **Name**: Personalize your experience within the app. Your name is stored in our database (Supabase) for account identification and subscription management, and also stored locally on your device for app functionality.
+- **Habit Names (Analytics Only)**: Understand which types of habits are popular among our users for product improvement purposes. Habit names are stored anonymously (not linked to your user account or any identifying information).
 
 ## Data Storage and Security
 
