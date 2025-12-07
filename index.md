@@ -56,6 +56,19 @@ We use the information we collect to:
 - **Data Retention**: We retain your email address and name for as long as your account is active. If you delete your account, we will delete your personal information in accordance with applicable privacy laws and our standard practices, except where we are required to retain it for legal or regulatory purposes.
 - However, no method of transmission over the internet or electronic storage is 100% secure. While we strive to protect your data, we cannot guarantee absolute security.
 
+### Data Persistence and Account Changes
+
+**Important**: All habit data, progress, and personal information are stored **locally on your device**. This means:
+
+- **Logging Out**: If you log out of your account or use the logout feature, your locally stored habit data will **remain on your device**. Logging out does not delete your data.
+- **Account Changes**: Entering a new email address or name will **not delete** your existing habit data. Your data remains stored locally on your device regardless of account changes.
+- **Device Changes**: If you switch to a new device, your locally stored data will not automatically transfer. Data is stored on the specific device where you use the app.
+- **Deleting Data**: Your locally stored data can only be permanently deleted by:
+  1. Deleting the app from your device, or
+  2. Using the "Delete All My Data" button available in the app under Menu > Privacy Policy > Privacy & Data Management
+
+This behavior is intentional and designed to ensure that your habit tracking data persists unless you explicitly choose to delete it through one of the methods above.
+
 ## Data Sharing and Disclosure
 
 We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances:
