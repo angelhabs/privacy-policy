@@ -1,6 +1,6 @@
 # Privacy Policy for Angel Habs
 
-**Last Updated:** December 2024
+**Last Updated:** December 2025
 
 ## Introduction
 
@@ -13,25 +13,29 @@ This privacy policy applies to the Angel Habs app and is operated by the develop
 ## Legal Basis for Processing (GDPR)
 
 We process your personal data based on the following legal grounds:
-- **Consent**: When you create an account, you provide consent for us to process your email address and name for account management and subscription services.
+- **Consent**: When you enter your email address and name, you provide consent for us to process this information for personalization, subscription management, and marketing communications. You can withdraw this consent at any time.
 - **Legitimate Interest**: Processing habit names for analytics to improve our services.
 - **Contract Performance**: Processing your information to provide and maintain the subscription service you have purchased.
 
 ## Information We Collect
 
 ### Personal Information
-- **Email Address**: When you create an account, we collect your email address. This is stored in our database (Supabase) and used solely for account identification, subscription management, and customer support purposes.
-- **Name**: When you create an account, we collect your name. This is stored in our database (Supabase) for account identification and subscription management. Additionally, your name is stored locally on your device for app functionality and personalization.
+- **Email Address**: When you enter your email address, we collect and store it in our database (Supabase). We use your email address for:
+  - Personalizing your experience on your device
+  - Subscription management and customer support
+  - Marketing communications (you can opt out at any time - see "Your Rights" section below)
+- **Name**: When you enter your name, we collect and store it in our database (Supabase) for personalization and subscription management. Additionally, your name is stored locally on your device for app functionality.
 
 ### Habit Data
 - **Local Storage Only**: All habit data, progress tracking, daily completions, challenges, and personal information related to your habits are stored **exclusively on your device** using local storage (Core Data). This data is **never** transmitted to our servers or stored in the cloud.
-- **Analytics Only**: For analytics purposes only, we log the **names** of habits you create (e.g., "Meditate", "Exercise"). We do **not** collect or store:
+- **Analytics Only**: For analytics purposes only, we log the **names** of habits you create (e.g., "Meditate", "Exercise"). Each habit name is stored with only a unique habit identifier (a random UUID generated for that specific habit). We do **not** link habit names to your user account, email address, or any other identifying information. We do **not** collect or store:
   - Progress values or completion percentages
   - Daily completion dates or history
   - Goal values or units
   - Rest days or schedules
   - Challenge participation details
   - Any personal details about your habit tracking
+  - User IDs or account information linked to habits
 
 ### What We Do NOT Collect
 - Your location or country
@@ -43,9 +47,12 @@ We process your personal data based on the following legal grounds:
 ## How We Use Your Information
 
 We use the information we collect to:
-- **Email Address**: Manage your account and subscription status, identify users who have cancelled subscriptions for retention purposes, and provide customer support
-- **Name**: Personalize your experience within the app. Your name is stored in our database (Supabase) for account identification and subscription management, and also stored locally on your device for app functionality.
-- **Habit Names (Analytics Only)**: Understand which types of habits are popular among our users for product improvement purposes. Habit names are stored anonymously (not linked to your user account or any identifying information).
+- **Email Address**: 
+  - Personalize your experience on your device
+  - Manage subscription status and provide customer support
+  - Send marketing communications about our app, features, and updates (you can opt out at any time - see "Your Rights" section below)
+- **Name**: Personalize your experience within the app. Your name is stored in our database (Supabase) for personalization and subscription management, and also stored locally on your device for app functionality.
+- **Habit Names (Analytics Only)**: Understand which types of habits are popular among our users for product improvement purposes. Habit names are stored with only a unique habit identifier (a random UUID). They are not linked to your user account, email address, name, or any other identifying information. The habit identifier you may see in our database is the habit's own unique ID, not a user ID, and cannot be used to identify you.
 
 ## Data Storage and Security
 
@@ -71,7 +78,12 @@ This behavior is intentional and designed to ensure that your habit tracking dat
 
 ## Data Sharing and Disclosure
 
-We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances:
+We do not sell, trade, or rent your personal information to third parties. This includes:
+- Your email address and name
+- Habit names we collect for analytics
+- Any other information we collect
+
+We use all collected information (including habit names) solely for our own internal purposes (analytics, product improvement, personalization, and marketing communications). We may share your information only in the following limited circumstances:
 
 - **Service Providers**: We use Supabase as a service provider to host our database and manage authentication. Supabase is contractually obligated to protect your data and may only process it for the purposes we specify.
 - **Legal Obligations**: We may disclose your information if required by law or to comply with legal obligations, court orders, or government requests.
@@ -91,7 +103,10 @@ You have the right to:
 - **Access**: Access your personal data (email address and name)
 - **Correction**: Correct inaccurate data (update your email address or name)
 - **Deletion**: Delete your account and all associated data
-- **Export**: Export your local habit data (available in-app via Settings > Privacy)
+- **Export**: Export your local habit data (available in-app via Menu > Privacy & Data Management)
+- **Opt-Out of Marketing**: Unsubscribe from marketing emails at any time by:
+  - Clicking the "unsubscribe" link in any marketing email we send you, or
+  - Contacting us at angelhabsapp@gmail.com with "Unsubscribe" in the subject line
 - **Withdraw Consent**: Withdraw consent at any time
 
 Since all habit data is stored locally on your device, you have full control over it. To exercise your rights regarding your email address, name, or account, please contact us at angelhabsapp@gmail.com.
