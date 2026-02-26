@@ -1,6 +1,6 @@
 # Privacy Policy for Angel Habs
 
-**Last Updated:** December 2025
+**Last Updated:** January 2026
 
 ## Introduction
 
@@ -13,50 +13,57 @@ This privacy policy applies to the Angel Habs app and is operated by the develop
 ## Legal Basis for Processing (GDPR)
 
 We process your personal data based on the following legal grounds:
-- **Consent**: When you enter your email address and name, you provide consent for us to process this information for personalization, subscription management, and marketing communications. You can withdraw this consent at any time.
+- **Consent**: When you create an account, you provide consent for us to process your email address and name for account management and subscription services.
 - **Legitimate Interest**: Processing habit names for analytics to improve our services.
 - **Contract Performance**: Processing your information to provide and maintain the subscription service you have purchased.
 
 ## Information We Collect
 
 ### Personal Information
-- **Email Address**: When you enter your email address, we collect and store it in our database (Supabase). We use your email address for:
-  - Personalizing your experience on your device
-  - Subscription management and customer support
-  - Marketing communications (you can opt out at any time - see "Your Rights" section below)
-- **Name**: When you enter your name, we collect and store it in our database (Supabase) for personalization and subscription management. Additionally, your name is stored locally on your device for app functionality.
+- **Email Address**: When you create an account, we collect your email address. This is stored in our database (Supabase) and used solely for account identification, subscription management, and customer support purposes.
+- **Name**: When you create an account, we collect your name. This is stored in our database (Supabase) for account identification and subscription management. Additionally, your name is stored locally on your device for app functionality and personalization.
 
 ### Habit Data
 - **Local Storage Only**: All habit data, progress tracking, daily completions, challenges, and personal information related to your habits are stored **exclusively on your device** using local storage (Core Data). This data is **never** transmitted to our servers or stored in the cloud.
-- **Analytics Only**: For analytics purposes only, we log the **names** of habits you create (e.g., "Meditate", "Exercise"). Each habit name is stored with only a unique habit identifier (a random UUID generated for that specific habit). We do **not** link habit names to your user account, email address, or any other identifying information. We do **not** collect or store:
+- **Analytics Only**: For analytics purposes only, we log the **names** of habits you create (e.g., "Meditate", "Exercise"). We do **not** collect or store:
   - Progress values or completion percentages
   - Daily completion dates or history
   - Goal values or units
   - Rest days or schedules
   - Challenge participation details
   - Any personal details about your habit tracking
-  - User IDs or account information linked to habits
+
+### Wealth Check-in / Financial Data
+If you use the **Wealth Check-in** feature (e.g. a habit named "Wealth," "Budget," or "Abundant"), you may enter financial-related information such as:
+- Income and additional income sources
+- Budget categories and amounts (fixed expenses, luxuries, yearly)
+- Spending and expense tracking
+- Savings buckets, goals, and amounts
+- Asset names and values (e.g. for net worth)
+
+**All Wealth Check-in data is stored only on your device** (using local storage). We do **not** collect, transmit, store on our servers, or use for analytics any income, budget, expense, savings, or asset data. This data never leaves your device and is not shared with third parties.
 
 ### What We Do NOT Collect
 - Your location or country
 - Habit progress, completion history, or detailed tracking data
 - Goal values, schedules, or other habit configuration details
+- **Wealth Check-in / financial data** (income, budgets, expenses, savings, assets)
 - Device identifiers or advertising IDs
 - Cookies or tracking technologies
 
 ## How We Use Your Information
 
 We use the information we collect to:
-- **Email Address**: 
-  - Personalize your experience on your device
-  - Manage subscription status and provide customer support
-  - Send marketing communications about our app, features, and updates (you can opt out at any time - see "Your Rights" section below)
-- **Name**: Personalize your experience within the app. Your name is stored in our database (Supabase) for personalization and subscription management, and also stored locally on your device for app functionality.
-- **Habit Names (Analytics Only)**: Understand which types of habits are popular among our users for product improvement purposes. Habit names are stored with only a unique habit identifier (a random UUID). They are not linked to your user account, email address, name, or any other identifying information. The habit identifier you may see in our database is the habit's own unique ID, not a user ID, and cannot be used to identify you.
+- **Email Address**: Manage your account and subscription status, identify users who have cancelled subscriptions for retention purposes, and provide customer support
+- **Name**: Personalize your experience within the app. Your name is stored in our database (Supabase) for account identification and subscription management, and also stored locally on your device for app functionality.
+- **Habit Names (Analytics Only)**: Understand which types of habits are popular among our users for product improvement purposes. Habit names are stored anonymously (not linked to your user account or any identifying information).
+
+We do **not** use Wealth Check-in or financial data for any purpose; it remains on your device only.
 
 ## Data Storage and Security
 
 - **Habit Data**: All your habit data, progress tracking, daily completions, and challenges are stored **locally on your device** using Core Data. This data never leaves your device and is not backed up to our servers. If you delete the app, this data will be permanently deleted.
+- **Wealth Check-in Data**: All income, budget, expense, savings, and asset data you enter in the Wealth Check-in feature is stored **locally on your device** only. It is not transmitted to our servers or used for analytics.
 - **Email Address and Name**: Your email address and name are stored securely in our database (Supabase) for account and subscription management purposes. Additionally, your name is stored locally on your device for app functionality and persists across app sessions.
 - **Data Location**: Our database is hosted by Supabase. Data may be stored in servers located outside your country of residence. We implement appropriate safeguards to protect your data in accordance with applicable privacy laws.
 - **Security Measures**: We take reasonable measures to protect your personal information. Our database is hosted by Supabase, which implements industry-standard security practices.
@@ -70,7 +77,7 @@ We use the information we collect to:
 - **Logging Out**: If you log out of your account or use the logout feature, your locally stored habit data will **remain on your device**. Logging out does not delete your data.
 - **Account Changes**: Entering a new email address or name will **not delete** your existing habit data. Your data remains stored locally on your device regardless of account changes.
 - **Device Changes**: If you switch to a new device, your locally stored data will not automatically transfer. Data is stored on the specific device where you use the app.
-- **Deleting Data**: Your locally stored data can only be permanently deleted by:
+- **Deleting Data**: Your locally stored data (including Wealth Check-in data) can only be permanently deleted by:
   1. Deleting the app from your device, or
   2. Using the "Delete All My Data" button available in the app under Menu > Privacy Policy > Privacy & Data Management
 
@@ -78,17 +85,14 @@ This behavior is intentional and designed to ensure that your habit tracking dat
 
 ## Data Sharing and Disclosure
 
-We do not sell, trade, or rent your personal information to third parties. This includes:
-- Your email address and name
-- Habit names we collect for analytics
-- Any other information we collect
-
-We use all collected information (including habit names) solely for our own internal purposes (analytics, product improvement, personalization, and marketing communications). We may share your information only in the following limited circumstances:
+We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances:
 
 - **Service Providers**: We use Supabase as a service provider to host our database and manage authentication. Supabase is contractually obligated to protect your data and may only process it for the purposes we specify.
 - **Legal Obligations**: We may disclose your information if required by law or to comply with legal obligations, court orders, or government requests.
 - **Protection of Rights**: We may share information to protect our rights, property, or safety, or that of our users or others.
 - **Business Transfers**: In connection with a merger, acquisition, or sale of assets, your information may be transferred as part of the transaction.
+
+We do **not** share Wealth Check-in or financial data with anyone; it never leaves your device.
 
 ## International Data Transfers
 
@@ -103,13 +107,10 @@ You have the right to:
 - **Access**: Access your personal data (email address and name)
 - **Correction**: Correct inaccurate data (update your email address or name)
 - **Deletion**: Delete your account and all associated data
-- **Export**: Export your local habit data (available in-app via Menu > Privacy & Data Management)
-- **Opt-Out of Marketing**: Unsubscribe from marketing emails at any time by:
-  - Clicking the "unsubscribe" link in any marketing email we send you, or
-  - Contacting us at angelhabsapp@gmail.com with "Unsubscribe" in the subject line
+- **Export**: Export your local habit data (available in-app via Settings > Privacy)
 - **Withdraw Consent**: Withdraw consent at any time
 
-Since all habit data is stored locally on your device, you have full control over it. To exercise your rights regarding your email address, name, or account, please contact us at angelhabsapp@gmail.com.
+Since all habit data and Wealth Check-in data is stored locally on your device, you have full control over it. To exercise your rights regarding your email address, name, or account, please contact us at angelhabsapp@gmail.com.
 
 ### Additional Rights for California Residents (CCPA)
 
